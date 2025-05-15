@@ -25,8 +25,8 @@ The following diagram illustrates how packets flow through the H2Byte applicatio
 
 <table>
 <tr>
-<td><img src="images/img1.jpg" alt="H2Byte Screenshot 1" width="400"/></td>
-<td><img src="images/img2.jpg" alt="H2Byte Screenshot 2" width="400"/></td>
+<td><img src="images/img1.jpg" alt="H2Byte Screenshot 1" width="300"/></td>
+<td><img src="images/img2.jpg" alt="H2Byte Screenshot 2" width="300"/></td>
 </tr>
 </table>
 
