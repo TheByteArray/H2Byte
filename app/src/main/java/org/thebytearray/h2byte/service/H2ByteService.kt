@@ -26,6 +26,7 @@ import org.thebytearray.h2byte.util.Constant
 import org.thebytearray.h2byte.util.MmkvManager
 import org.thebytearray.h2byte.util.VPNManager
 import java.io.File
+import java.net.ServerSocket
 
 class H2ByteService : VpnService() {
 
@@ -224,10 +225,11 @@ class H2ByteService : VpnService() {
                 "bandwidth": { "up": "${config?.uploadSpeedMbps} mbps", "down": "${config?.downloadSpeedMbps} mbps" },
                 "fast_open": true,
                 "lazy": true,
-                "socks5": { "listen": "127.0.0.1:8920" }
+                "socks5": { "listen": "${LOOPBACK_ADDRESS}:${SOCKS_PORT}" }
             }
         """.trimIndent()
     }
+
 
     override fun onDestroy() {
         super.onDestroy()
