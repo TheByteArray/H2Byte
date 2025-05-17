@@ -251,7 +251,12 @@ class H2ByteService : VpnService() {
             VPNManager.updateVpnState(State.DISCONNECTED)
         }
 
-        stopForeground(true)
+        //https://developer.android.com/reference/android/app/Service#stopForeground(int)
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            stopForeground(STOP_FOREGROUND_REMOVE)
+        }else {
+            stopForeground(true)
+        }
         Log.d(TAG, "Foreground stopped")
 
         stopSelf()
