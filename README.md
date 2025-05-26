@@ -20,6 +20,18 @@ The following diagram illustrates how packets flow through the H2Byte applicatio
      |                    |                    |                   |                    |
      +--------------------+--------------------+-------------------+--------------------+
 ```
+## Professional Services
+
+I offer professional development services for custom Android and iOS VPN and proxy client applications. Whether you need a complete solution from scratch or integration with existing systems, I can help bring your vision to life. My expertise includes:
+
+- Custom VPN client development
+- Proxy client implementation
+- Network security solutions
+- Androd and iOS app architecture
+- Performance optimization
+- Security hardening
+
+For professional inquiries, please contact me on Telegram: [@codewithtamim](https://t.me/codewithtamim)
 
 ## Screenshots
 
@@ -32,7 +44,7 @@ The following diagram illustrates how packets flow through the H2Byte applicatio
 
 ## Core Development
 
-This project uses the core implementation from [hysteria2-mobile](https://github.com/TheByteArray/hysteria2-mobile) as its foundation.
+This project uses the core implementation from [hysteria](https://github.com/apernet/hysteria) as its foundation.
 
 ## License
 
